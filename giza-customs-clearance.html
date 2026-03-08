@@ -1,0 +1,1470 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Giza Customs Clearance – Egypt's trusted partner for customs clearance, import/export logistics, documentation, shipping coordination, and regulatory consulting." />
+  <meta name="keywords" content="customs clearance Egypt, import export Egypt, logistics Egypt, shipping Egypt, customs broker Egypt, Giza customs" />
+  <meta name="author" content="Giza Customs Clearance" />
+  <meta property="og:title" content="Giza Customs Clearance – Trusted Logistics & Customs Experts in Egypt" />
+  <meta property="og:description" content="Streamline your import and export operations with Egypt's most reliable customs clearance and logistics partner." />
+  <meta property="og:type" content="website" />
+  <title>Giza Customs Clearance | Egypt's Trusted Logistics Partner</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ─── CSS Variables ─────────────────────────────────────── */
+    :root {
+      --navy:       #0b1f3a;
+      --navy-mid:   #122a4e;
+      --navy-light: #1a3a66;
+      --gold:       #c8974a;
+      --gold-light: #e0b876;
+      --sky:        #3b82f6;
+      --white:      #ffffff;
+      --off-white:  #f7f8fc;
+      --gray-light: #eef1f7;
+      --gray-mid:   #d0d7e4;
+      --gray-text:  #6b7a9a;
+      --body-text:  #2d3d58;
+      --shadow-sm:  0 2px 12px rgba(11,31,58,0.08);
+      --shadow-md:  0 8px 32px rgba(11,31,58,0.13);
+      --shadow-lg:  0 20px 60px rgba(11,31,58,0.18);
+      --radius:     12px;
+      --radius-lg:  20px;
+      --transition: 0.3s cubic-bezier(0.4,0,0.2,1);
+    }
+
+    /* ─── Reset & Base ──────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; font-size: 16px; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      color: var(--body-text);
+      background: var(--white);
+      line-height: 1.7;
+      overflow-x: hidden;
+    }
+    img { max-width: 100%; display: block; }
+    a { text-decoration: none; color: inherit; }
+    ul { list-style: none; }
+
+    /* ─── Utility ───────────────────────────────────────────── */
+    .container { max-width: 1180px; margin: 0 auto; padding: 0 24px; }
+    .section-label {
+      display: inline-block;
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.18em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 14px;
+    }
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(1.8rem, 3.5vw, 2.6rem);
+      color: var(--navy);
+      line-height: 1.25;
+      margin-bottom: 18px;
+    }
+    .section-sub {
+      font-size: 1.05rem;
+      color: var(--gray-text);
+      max-width: 600px;
+      line-height: 1.8;
+    }
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 14px 32px;
+      border-radius: 50px;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 600;
+      font-size: 0.97rem;
+      cursor: pointer;
+      border: none;
+      transition: var(--transition);
+    }
+    .btn-primary {
+      background: var(--gold);
+      color: var(--navy);
+    }
+    .btn-primary:hover { background: var(--gold-light); transform: translateY(-2px); box-shadow: 0 8px 24px rgba(200,151,74,0.35); }
+    .btn-outline {
+      background: transparent;
+      color: var(--white);
+      border: 2px solid rgba(255,255,255,0.5);
+    }
+    .btn-outline:hover { border-color: var(--gold); color: var(--gold); transform: translateY(-2px); }
+    .btn-dark {
+      background: var(--navy);
+      color: var(--white);
+    }
+    .btn-dark:hover { background: var(--navy-light); transform: translateY(-2px); box-shadow: var(--shadow-md); }
+
+    /* ─── Navbar ────────────────────────────────────────────── */
+    .navbar {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      padding: 18px 0;
+      background: transparent;
+      transition: background 0.4s, box-shadow 0.4s, padding 0.4s;
+    }
+    .navbar.scrolled {
+      background: var(--navy);
+      box-shadow: 0 4px 24px rgba(0,0,0,0.18);
+      padding: 12px 0;
+    }
+    .nav-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .nav-logo {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+    }
+    .nav-logo-icon {
+      width: 42px; height: 42px;
+      background: var(--gold);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.3rem;
+    }
+    .nav-logo-text { display: flex; flex-direction: column; line-height: 1.2; }
+    .nav-logo-title { font-family: 'Playfair Display', serif; font-size: 1.05rem; color: var(--white); font-weight: 700; }
+    .nav-logo-sub { font-size: 0.68rem; color: var(--gold-light); letter-spacing: 0.12em; text-transform: uppercase; }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 36px;
+    }
+    .nav-links a {
+      font-size: 0.9rem;
+      font-weight: 500;
+      color: rgba(255,255,255,0.82);
+      transition: color var(--transition);
+    }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { margin-left: 12px; }
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 4px;
+    }
+    .hamburger span {
+      display: block;
+      width: 26px; height: 2px;
+      background: var(--white);
+      border-radius: 2px;
+      transition: var(--transition);
+    }
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 0; left: 0; right: 0; bottom: 0;
+      background: var(--navy);
+      z-index: 999;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      gap: 32px;
+    }
+    .mobile-menu.open { display: flex; }
+    .mobile-menu a {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.6rem;
+      color: var(--white);
+      transition: color var(--transition);
+    }
+    .mobile-menu a:hover { color: var(--gold); }
+    .mobile-close {
+      position: absolute;
+      top: 24px; right: 28px;
+      font-size: 2rem;
+      color: var(--white);
+      cursor: pointer;
+      background: none;
+      border: none;
+      line-height: 1;
+    }
+
+    /* ─── Hero ──────────────────────────────────────────────── */
+    .hero {
+      min-height: 100vh;
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+    }
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background:
+        radial-gradient(ellipse 80% 60% at 70% 50%, rgba(26,58,102,0.9) 0%, transparent 70%),
+        radial-gradient(ellipse 40% 40% at 20% 80%, rgba(200,151,74,0.12) 0%, transparent 60%),
+        linear-gradient(135deg, #0b1f3a 0%, #0f2d52 50%, #0b1f3a 100%);
+    }
+    /* Geometric pattern overlay */
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      background-image:
+        linear-gradient(rgba(255,255,255,0.03) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.03) 1px, transparent 1px);
+      background-size: 60px 60px;
+    }
+    /* Decorative ship silhouette using CSS */
+    .hero-deco {
+      position: absolute;
+      right: -60px;
+      bottom: 0;
+      width: 55%;
+      height: 75%;
+      opacity: 0.06;
+      background:
+        /* Simplified port/ship illustration via gradients */
+        repeating-linear-gradient(
+          0deg,
+          rgba(200,151,74,1) 0px, rgba(200,151,74,1) 3px,
+          transparent 3px, transparent 40px
+        );
+      clip-path: polygon(5% 100%, 5% 40%, 15% 30%, 20% 15%, 25% 30%, 35% 25%, 35% 20%, 40% 20%, 40% 25%, 60% 20%, 60% 30%, 80% 40%, 95% 50%, 100% 55%, 100% 100%);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      padding: 140px 0 100px;
+    }
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(200,151,74,0.15);
+      border: 1px solid rgba(200,151,74,0.3);
+      color: var(--gold-light);
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.08em;
+      padding: 7px 18px;
+      border-radius: 50px;
+      margin-bottom: 28px;
+    }
+    .hero-badge::before { content: '●'; font-size: 0.5rem; color: var(--gold); }
+    .hero-title {
+      font-family: 'Playfair Display', serif;
+      font-size: clamp(2.4rem, 5.5vw, 4rem);
+      color: var(--white);
+      line-height: 1.15;
+      margin-bottom: 24px;
+      max-width: 700px;
+    }
+    .hero-title span { color: var(--gold); }
+    .hero-sub {
+      font-size: 1.1rem;
+      color: rgba(255,255,255,0.68);
+      max-width: 540px;
+      margin-bottom: 44px;
+      line-height: 1.85;
+    }
+    .hero-actions { display: flex; gap: 16px; flex-wrap: wrap; }
+    .hero-stats {
+      display: flex;
+      gap: 48px;
+      margin-top: 72px;
+      padding-top: 40px;
+      border-top: 1px solid rgba(255,255,255,0.1);
+      flex-wrap: wrap;
+    }
+    .stat-item { display: flex; flex-direction: column; }
+    .stat-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: var(--gold);
+      font-weight: 700;
+      line-height: 1;
+    }
+    .stat-label { font-size: 0.82rem; color: rgba(255,255,255,0.55); margin-top: 6px; letter-spacing: 0.06em; }
+
+    /* ─── Trusted By ────────────────────────────────────────── */
+    .trusted {
+      background: var(--navy-mid);
+      padding: 28px 0;
+      border-top: 1px solid rgba(255,255,255,0.06);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+    .trusted-inner {
+      display: flex;
+      align-items: center;
+      gap: 40px;
+      flex-wrap: wrap;
+    }
+    .trusted-label {
+      font-size: 0.8rem;
+      color: rgba(255,255,255,0.4);
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+    .trusted-logos {
+      display: flex;
+      gap: 36px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+    .trusted-logo {
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 8px;
+      padding: 10px 22px;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: rgba(255,255,255,0.45);
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+    }
+
+    /* ─── Services ──────────────────────────────────────────── */
+    .services {
+      padding: 110px 0;
+      background: var(--off-white);
+    }
+    .services-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+    .services-header .section-sub { margin: 0 auto; }
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .service-card {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      border: 1px solid var(--gray-mid);
+      transition: var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .service-card::before {
+      content: '';
+      position: absolute;
+      bottom: 0; left: 0; right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: transform 0.4s ease;
+    }
+    .service-card:hover { transform: translateY(-6px); box-shadow: var(--shadow-lg); border-color: transparent; }
+    .service-card:hover::before { transform: scaleX(1); }
+    .service-icon {
+      width: 58px; height: 58px;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.5rem;
+      margin-bottom: 26px;
+      background: var(--gray-light);
+    }
+    .service-card:nth-child(1) .service-icon { background: rgba(11,31,58,0.08); }
+    .service-card:nth-child(2) .service-icon { background: rgba(200,151,74,0.1); }
+    .service-card:nth-child(3) .service-icon { background: rgba(59,130,246,0.1); }
+    .service-card:nth-child(4) .service-icon { background: rgba(34,197,94,0.1); }
+    .service-card:nth-child(5) .service-icon { background: rgba(168,85,247,0.1); }
+    .service-card:nth-child(6) .service-icon { background: rgba(239,68,68,0.1); }
+    .service-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.2rem;
+      color: var(--navy);
+      margin-bottom: 12px;
+    }
+    .service-desc {
+      font-size: 0.93rem;
+      color: var(--gray-text);
+      line-height: 1.8;
+    }
+    .service-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--gold);
+      font-size: 0.88rem;
+      font-weight: 600;
+      margin-top: 20px;
+      transition: gap var(--transition);
+    }
+    .service-link:hover { gap: 10px; }
+
+    /* ─── Why Us ─────────────────────────────────────────────── */
+    .why-us {
+      padding: 110px 0;
+      background: var(--white);
+    }
+    .why-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .why-visual {
+      position: relative;
+    }
+    .why-visual-main {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--navy-light) 100%);
+      border-radius: var(--radius-lg);
+      padding: 56px 48px;
+      color: var(--white);
+      position: relative;
+      overflow: hidden;
+    }
+    .why-visual-main::before {
+      content: '';
+      position: absolute;
+      top: -40px; right: -40px;
+      width: 200px; height: 200px;
+      border-radius: 50%;
+      background: rgba(200,151,74,0.1);
+    }
+    .why-visual-main::after {
+      content: '';
+      position: absolute;
+      bottom: -60px; left: -60px;
+      width: 240px; height: 240px;
+      border-radius: 50%;
+      background: rgba(59,130,246,0.08);
+    }
+    .why-big-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 5rem;
+      color: var(--gold);
+      line-height: 1;
+      font-weight: 700;
+      position: relative; z-index: 1;
+    }
+    .why-big-label {
+      font-size: 1rem;
+      color: rgba(255,255,255,0.7);
+      margin-top: 8px;
+      position: relative; z-index: 1;
+    }
+    .why-float-card {
+      position: absolute;
+      bottom: -24px; right: -24px;
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 20px 24px;
+      box-shadow: var(--shadow-lg);
+      min-width: 190px;
+    }
+    .why-float-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.8rem;
+      color: var(--navy);
+      font-weight: 700;
+    }
+    .why-float-label { font-size: 0.8rem; color: var(--gray-text); margin-top: 4px; }
+    .why-points { display: flex; flex-direction: column; gap: 28px; margin-top: 44px; }
+    .why-point {
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .why-point-icon {
+      width: 48px; height: 48px;
+      border-radius: 12px;
+      background: var(--navy);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .why-point-title {
+      font-weight: 600;
+      font-size: 1.02rem;
+      color: var(--navy);
+      margin-bottom: 5px;
+    }
+    .why-point-desc { font-size: 0.92rem; color: var(--gray-text); }
+
+    /* ─── Process ───────────────────────────────────────────── */
+    .process {
+      padding: 110px 0;
+      background: var(--navy);
+      position: relative;
+      overflow: hidden;
+    }
+    .process::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background-image: linear-gradient(rgba(255,255,255,0.02) 1px, transparent 1px),
+                        linear-gradient(90deg, rgba(255,255,255,0.02) 1px, transparent 1px);
+      background-size: 50px 50px;
+    }
+    .process-header {
+      text-align: center;
+      margin-bottom: 72px;
+    }
+    .process-header .section-title { color: var(--white); }
+    .process-header .section-sub { color: rgba(255,255,255,0.55); margin: 0 auto; }
+    .process-steps {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 0;
+      position: relative;
+    }
+    .process-steps::before {
+      content: '';
+      position: absolute;
+      top: 36px; left: 12.5%; right: 12.5%;
+      height: 1px;
+      background: linear-gradient(90deg, var(--gold) 0%, rgba(200,151,74,0.3) 100%);
+      z-index: 0;
+    }
+    .process-step {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+      position: relative;
+      z-index: 1;
+    }
+    .step-num {
+      width: 72px; height: 72px;
+      border-radius: 50%;
+      background: var(--navy-mid);
+      border: 2px solid var(--gold);
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Playfair Display', serif;
+      font-size: 1.3rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 28px;
+      position: relative;
+    }
+    .step-num::after {
+      content: '';
+      position: absolute;
+      inset: -6px;
+      border-radius: 50%;
+      border: 1px solid rgba(200,151,74,0.2);
+    }
+    .step-icon {
+      font-size: 1.5rem;
+      margin-bottom: 18px;
+    }
+    .step-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.05rem;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+    .step-desc { font-size: 0.88rem; color: rgba(255,255,255,0.5); line-height: 1.75; }
+
+    /* ─── About ─────────────────────────────────────────────── */
+    .about {
+      padding: 110px 0;
+      background: var(--off-white);
+    }
+    .about-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 80px;
+      align-items: center;
+    }
+    .about-text .section-sub { margin-bottom: 32px; }
+    .about-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-top: 36px;
+    }
+    .tag {
+      background: var(--navy);
+      color: var(--white);
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 8px 18px;
+      border-radius: 50px;
+      letter-spacing: 0.04em;
+    }
+    .tag.gold { background: var(--gold); color: var(--navy); }
+    .about-visual {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+    .about-card {
+      background: var(--white);
+      border-radius: var(--radius);
+      padding: 30px 26px;
+      box-shadow: var(--shadow-sm);
+      border: 1px solid var(--gray-mid);
+    }
+    .about-card.tall { grid-row: span 2; display: flex; flex-direction: column; justify-content: flex-end; background: var(--navy); }
+    .about-card-icon { font-size: 1.6rem; margin-bottom: 14px; }
+    .about-card-title { font-weight: 600; font-size: 0.95rem; color: var(--navy); margin-bottom: 6px; }
+    .about-card.tall .about-card-title { color: var(--white); }
+    .about-card-text { font-size: 0.85rem; color: var(--gray-text); line-height: 1.7; }
+    .about-card.tall .about-card-text { color: rgba(255,255,255,0.6); }
+    .about-card-num {
+      font-family: 'Playfair Display', serif;
+      font-size: 2.4rem;
+      color: var(--gold);
+      font-weight: 700;
+      margin-bottom: 8px;
+    }
+
+    /* ─── Testimonials ──────────────────────────────────────── */
+    .testimonials {
+      padding: 110px 0;
+      background: var(--white);
+    }
+    .testimonials-header {
+      text-align: center;
+      margin-bottom: 64px;
+    }
+    .testimonials-header .section-sub { margin: 0 auto; }
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+    .testi-card {
+      background: var(--off-white);
+      border-radius: var(--radius-lg);
+      padding: 40px 36px;
+      border: 1px solid var(--gray-mid);
+      transition: var(--transition);
+      position: relative;
+    }
+    .testi-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+    .testi-quote {
+      font-family: 'Playfair Display', serif;
+      font-size: 3.5rem;
+      color: var(--gold);
+      line-height: 0.5;
+      margin-bottom: 20px;
+      display: block;
+    }
+    .testi-stars { color: var(--gold); font-size: 0.9rem; margin-bottom: 18px; letter-spacing: 2px; }
+    .testi-text {
+      font-size: 0.95rem;
+      color: var(--body-text);
+      line-height: 1.85;
+      margin-bottom: 28px;
+      font-style: italic;
+    }
+    .testi-author { display: flex; align-items: center; gap: 14px; }
+    .testi-avatar {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--navy), var(--navy-light));
+      display: flex; align-items: center; justify-content: center;
+      color: var(--gold);
+      font-family: 'Playfair Display', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+    .testi-name { font-weight: 600; font-size: 0.95rem; color: var(--navy); }
+    .testi-role { font-size: 0.82rem; color: var(--gray-text); margin-top: 2px; }
+
+    /* ─── Contact ───────────────────────────────────────────── */
+    .contact {
+      padding: 110px 0;
+      background: var(--off-white);
+    }
+    .contact-grid {
+      display: grid;
+      grid-template-columns: 1fr 1.3fr;
+      gap: 72px;
+      align-items: start;
+    }
+    .contact-info { }
+    .contact-info .section-sub { margin-bottom: 44px; }
+    .contact-items { display: flex; flex-direction: column; gap: 24px; }
+    .contact-item {
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+    }
+    .contact-item-icon {
+      width: 50px; height: 50px;
+      border-radius: 12px;
+      background: var(--navy);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+    }
+    .contact-item-label { font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gray-text); margin-bottom: 4px; }
+    .contact-item-value { font-size: 1rem; color: var(--navy); font-weight: 500; }
+    .contact-form-wrapper {
+      background: var(--white);
+      border-radius: var(--radius-lg);
+      padding: 52px 48px;
+      box-shadow: var(--shadow-md);
+      border: 1px solid var(--gray-mid);
+    }
+    .form-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      color: var(--navy);
+      margin-bottom: 8px;
+    }
+    .form-sub { font-size: 0.9rem; color: var(--gray-text); margin-bottom: 32px; }
+    .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+    .form-group { display: flex; flex-direction: column; gap: 8px; margin-bottom: 18px; }
+    .form-group label {
+      font-size: 0.83rem;
+      font-weight: 600;
+      color: var(--navy);
+      letter-spacing: 0.04em;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      padding: 13px 18px;
+      border: 1.5px solid var(--gray-mid);
+      border-radius: var(--radius);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.95rem;
+      color: var(--body-text);
+      background: var(--off-white);
+      transition: border-color var(--transition), box-shadow var(--transition);
+      outline: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--navy-light);
+      box-shadow: 0 0 0 3px rgba(26,58,102,0.1);
+      background: var(--white);
+    }
+    .form-group textarea { resize: vertical; min-height: 110px; }
+    .form-submit { width: 100%; justify-content: center; margin-top: 8px; padding: 16px; font-size: 1rem; }
+
+    /* ─── Footer ────────────────────────────────────────────── */
+    .footer {
+      background: #07162c;
+      color: rgba(255,255,255,0.55);
+      padding: 72px 0 0;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1.3fr;
+      gap: 60px;
+      padding-bottom: 60px;
+    }
+    .footer-brand { }
+    .footer-logo { display: flex; align-items: center; gap: 12px; margin-bottom: 20px; }
+    .footer-logo-icon {
+      width: 40px; height: 40px;
+      background: var(--gold);
+      border-radius: 10px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 1.2rem;
+    }
+    .footer-logo-text { font-family: 'Playfair Display', serif; font-size: 1rem; color: var(--white); font-weight: 700; }
+    .footer-brand p { font-size: 0.88rem; line-height: 1.8; max-width: 280px; margin-bottom: 24px; }
+    .footer-social { display: flex; gap: 12px; }
+    .social-btn {
+      width: 38px; height: 38px;
+      border-radius: 8px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.1);
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.9rem;
+      transition: var(--transition);
+      cursor: pointer;
+      color: rgba(255,255,255,0.55);
+      text-decoration: none;
+    }
+    .social-btn:hover { background: var(--gold); border-color: var(--gold); color: var(--navy); }
+    .footer-col-title {
+      font-size: 0.82rem;
+      text-transform: uppercase;
+      letter-spacing: 0.14em;
+      color: var(--gold);
+      margin-bottom: 22px;
+      font-weight: 600;
+    }
+    .footer-col ul { display: flex; flex-direction: column; gap: 12px; }
+    .footer-col ul a { font-size: 0.88rem; transition: color var(--transition); }
+    .footer-col ul a:hover { color: var(--white); }
+    .footer-newsletter p { font-size: 0.88rem; line-height: 1.7; margin-bottom: 20px; }
+    .footer-email-form {
+      display: flex;
+      gap: 0;
+    }
+    .footer-email-form input {
+      flex: 1;
+      padding: 12px 16px;
+      background: rgba(255,255,255,0.07);
+      border: 1px solid rgba(255,255,255,0.12);
+      border-right: none;
+      border-radius: 8px 0 0 8px;
+      color: var(--white);
+      font-family: 'DM Sans', sans-serif;
+      font-size: 0.88rem;
+      outline: none;
+    }
+    .footer-email-form input::placeholder { color: rgba(255,255,255,0.3); }
+    .footer-email-form button {
+      padding: 12px 20px;
+      background: var(--gold);
+      color: var(--navy);
+      border: none;
+      border-radius: 0 8px 8px 0;
+      font-weight: 600;
+      font-size: 0.88rem;
+      cursor: pointer;
+      transition: background var(--transition);
+    }
+    .footer-email-form button:hover { background: var(--gold-light); }
+    .footer-bottom {
+      border-top: 1px solid rgba(255,255,255,0.08);
+      padding: 24px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-bottom span { font-size: 0.83rem; }
+    .footer-bottom-links { display: flex; gap: 28px; }
+    .footer-bottom-links a { font-size: 0.83rem; transition: color var(--transition); }
+    .footer-bottom-links a:hover { color: var(--gold); }
+
+    /* ─── Scroll top button ─────────────────────────────────── */
+    .scroll-top {
+      position: fixed;
+      bottom: 32px; right: 32px;
+      width: 48px; height: 48px;
+      background: var(--gold);
+      color: var(--navy);
+      border: none;
+      border-radius: 50%;
+      font-size: 1.2rem;
+      cursor: pointer;
+      display: flex; align-items: center; justify-content: center;
+      opacity: 0;
+      pointer-events: none;
+      transition: var(--transition);
+      box-shadow: 0 4px 18px rgba(200,151,74,0.4);
+      z-index: 999;
+    }
+    .scroll-top.visible { opacity: 1; pointer-events: all; }
+    .scroll-top:hover { background: var(--gold-light); transform: translateY(-3px); }
+
+    /* ─── Animations ────────────────────────────────────────── */
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .animate { opacity: 0; transform: translateY(24px); transition: opacity 0.7s ease, transform 0.7s ease; }
+    .animate.visible { opacity: 1; transform: translateY(0); }
+    .delay-1 { transition-delay: 0.1s; }
+    .delay-2 { transition-delay: 0.2s; }
+    .delay-3 { transition-delay: 0.3s; }
+    .delay-4 { transition-delay: 0.4s; }
+    .delay-5 { transition-delay: 0.5s; }
+
+    /* ─── Responsive ────────────────────────────────────────── */
+    @media (max-width: 1024px) {
+      .services-grid { grid-template-columns: repeat(2, 1fr); }
+      .why-grid, .about-grid, .contact-grid { grid-template-columns: 1fr; gap: 52px; }
+      .why-visual { max-width: 480px; }
+      .process-steps { grid-template-columns: repeat(2, 1fr); gap: 48px; }
+      .process-steps::before { display: none; }
+      .footer-grid { grid-template-columns: 1fr 1fr; }
+      .testimonials-grid { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 768px) {
+      .nav-links, .nav-cta { display: none; }
+      .hamburger { display: flex; }
+      .services-grid { grid-template-columns: 1fr; }
+      .testimonials-grid { grid-template-columns: 1fr; }
+      .process-steps { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .about-visual { grid-template-columns: 1fr; }
+      .about-card.tall { grid-row: auto; }
+      .hero-stats { gap: 28px; }
+      .contact-form-wrapper { padding: 32px 24px; }
+      .trusted-inner { justify-content: center; }
+    }
+    @media (max-width: 480px) {
+      .hero-actions { flex-direction: column; }
+      .hero-actions .btn { width: 100%; justify-content: center; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- ─── NAVBAR ─────────────────────────────────────────── -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#" class="nav-logo">
+        <div class="nav-logo-icon">🚢</div>
+        <div class="nav-logo-text">
+          <span class="nav-logo-title">Giza Customs</span>
+          <span class="nav-logo-sub">Clearance &amp; Logistics</span>
+        </div>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#services">Services</a></li>
+        <li><a href="#why-us">Why Us</a></li>
+        <li><a href="#process">Process</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <a href="#contact" class="btn btn-primary nav-cta" style="padding:10px 24px;font-size:0.88rem;">Get a Quote</a>
+      <div class="hamburger" id="hamburger" onclick="openMenu()">
+        <span></span><span></span><span></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- ─── MOBILE MENU ─────────────────────────────────────── -->
+  <div class="mobile-menu" id="mobileMenu">
+    <button class="mobile-close" onclick="closeMenu()">✕</button>
+    <a href="#services" onclick="closeMenu()">Services</a>
+    <a href="#why-us" onclick="closeMenu()">Why Us</a>
+    <a href="#process" onclick="closeMenu()">Process</a>
+    <a href="#about" onclick="closeMenu()">About</a>
+    <a href="#contact" onclick="closeMenu()">Contact</a>
+    <a href="#contact" class="btn btn-primary" onclick="closeMenu()">Get a Quote</a>
+  </div>
+
+  <!-- ─── HERO ────────────────────────────────────────────── -->
+  <section class="hero" id="home">
+    <div class="hero-bg"></div>
+    <div class="hero-pattern"></div>
+    <div class="hero-deco"></div>
+    <div class="container hero-content">
+      <div class="hero-badge">Egypt's Leading Customs Experts since 2003</div>
+      <h1 class="hero-title">
+        Navigate Egyptian<br />Customs with <span>Confidence</span>
+      </h1>
+      <p class="hero-sub">
+        Giza Customs Clearance delivers end-to-end import and export solutions through Egypt's major ports — with unmatched expertise, speed, and regulatory precision.
+      </p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get a Free Quote ➜</a>
+        <a href="#services" class="btn btn-outline">Explore Services</a>
+      </div>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-num">20+</span>
+          <span class="stat-label">Years in Operation</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">5,000+</span>
+          <span class="stat-label">Shipments Cleared</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">98%</span>
+          <span class="stat-label">On-Time Clearance Rate</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-num">12</span>
+          <span class="stat-label">Egyptian Ports Covered</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TRUSTED BY ──────────────────────────────────────── -->
+  <div class="trusted">
+    <div class="container">
+      <div class="trusted-inner">
+        <span class="trusted-label">Trusted By</span>
+        <div class="trusted-logos">
+          <div class="trusted-logo">EgyptAir Cargo</div>
+          <div class="trusted-logo">Cairo Pharma</div>
+          <div class="trusted-logo">Delta Trade Co.</div>
+          <div class="trusted-logo">AlNile Exports</div>
+          <div class="trusted-logo">Meridian Foods</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ─── SERVICES ────────────────────────────────────────── -->
+  <section class="services" id="services">
+    <div class="container">
+      <div class="services-header animate">
+        <span class="section-label">What We Offer</span>
+        <h2 class="section-title">Comprehensive Customs &amp; Logistics Services</h2>
+        <p class="section-sub">From first documentation to final delivery, we manage every step of your customs and shipping process — so you can focus on growing your business.</p>
+      </div>
+      <div class="services-grid">
+        <div class="service-card animate delay-1">
+          <div class="service-icon">🛃</div>
+          <h3 class="service-title">Customs Clearance</h3>
+          <p class="service-desc">Expert handling of all customs formalities for imports and exports through Alexandria, Port Said, Damietta, and all major Egyptian ports. We ensure compliance and speed.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card animate delay-2">
+          <div class="service-icon">📋</div>
+          <h3 class="service-title">Documentation &amp; Permits</h3>
+          <p class="service-desc">Complete preparation and management of all required customs documents — certificates of origin, import licenses, health certificates, GOEIC approvals, and more.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card animate delay-3">
+          <div class="service-icon">🚛</div>
+          <h3 class="service-title">Logistics Support</h3>
+          <p class="service-desc">Door-to-door logistics coordination across Egypt. We arrange inland transportation, warehousing, and last-mile delivery with a trusted network of carriers.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card animate delay-1">
+          <div class="service-icon">🚢</div>
+          <h3 class="service-title">Shipping Coordination</h3>
+          <p class="service-desc">We coordinate FCL, LCL, air freight, and multimodal shipments on your behalf — negotiating freight rates and managing booking, tracking, and delivery.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card animate delay-2">
+          <div class="service-icon">⚖️</div>
+          <h3 class="service-title">Regulatory Consulting</h3>
+          <p class="service-desc">Stay ahead of Egypt's evolving customs regulations. Our specialists provide strategic advice on tariff classification, duties optimization, and regulatory compliance.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+        <div class="service-card animate delay-3">
+          <div class="service-icon">📦</div>
+          <h3 class="service-title">Warehousing &amp; Storage</h3>
+          <p class="service-desc">Secure bonded and non-bonded warehouse facilities near major ports. Flexible storage solutions with real-time inventory management and careful cargo handling.</p>
+          <a href="#contact" class="service-link">Learn More →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── WHY US ───────────────────────────────────────────── -->
+  <section class="why-us" id="why-us">
+    <div class="container">
+      <div class="why-grid">
+        <div class="why-left animate">
+          <span class="section-label">Why Choose Us</span>
+          <h2 class="section-title">Egypt's Most Trusted Customs Partner</h2>
+          <p class="section-sub">We combine deep local expertise with international logistics standards to deliver clearance solutions that are fast, compliant, and cost-effective.</p>
+          <div class="why-points">
+            <div class="why-point">
+              <div class="why-point-icon">⚡</div>
+              <div>
+                <div class="why-point-title">Fastest Clearance Times in Egypt</div>
+                <div class="why-point-desc">Our established relationships with customs authorities and port officials allow us to fast-track approvals and minimize port storage costs.</div>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="why-point-icon">🛡️</div>
+              <div>
+                <div class="why-point-title">100% Regulatory Compliance</div>
+                <div class="why-point-desc">Our licensed customs brokers ensure every shipment meets Egyptian Customs Authority regulations, GOEIC requirements, and relevant international standards.</div>
+              </div>
+            </div>
+            <div class="why-point">
+              <div class="why-point-icon">📱</div>
+              <div>
+                <div class="why-point-title">Real-Time Shipment Tracking</div>
+                <div class="why-point-desc">Stay informed with live updates on your shipment's status from arrival to final delivery, via your dedicated account manager.</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="why-right animate delay-2">
+          <div class="why-visual">
+            <div class="why-visual-main">
+              <div class="why-big-num">20+</div>
+              <div class="why-big-label">Years of Proven Excellence<br />in Egyptian Customs</div>
+              <div style="height:40px;"></div>
+              <div style="position:relative;z-index:1;font-size:0.85rem;color:rgba(255,255,255,0.5);">Licensed by the Egyptian Customs Authority · GOEIC registered · FIATA member</div>
+            </div>
+            <div class="why-float-card">
+              <div class="why-float-num">98%</div>
+              <div class="why-float-label">On-time clearance success rate</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── PROCESS ──────────────────────────────────────────── -->
+  <section class="process" id="process">
+    <div class="container">
+      <div class="process-header animate">
+        <span class="section-label">How It Works</span>
+        <h2 class="section-title">Your Shipment Cleared in 4 Simple Steps</h2>
+        <p class="section-sub">Our streamlined process eliminates uncertainty and keeps your supply chain moving without delays or surprises.</p>
+      </div>
+      <div class="process-steps">
+        <div class="process-step animate delay-1">
+          <div class="step-num">01</div>
+          <div class="step-icon">📞</div>
+          <h3 class="step-title">Initial Consultation</h3>
+          <p class="step-desc">Contact us with your shipment details. We assess your requirements, provide a transparent quote, and assign a dedicated account manager to your file.</p>
+        </div>
+        <div class="process-step animate delay-2">
+          <div class="step-num">02</div>
+          <div class="step-icon">📂</div>
+          <h3 class="step-title">Document Preparation</h3>
+          <p class="step-desc">We review, prepare, and verify all required customs documents to ensure accuracy and compliance with Egyptian Customs Authority standards.</p>
+        </div>
+        <div class="process-step animate delay-3">
+          <div class="step-num">03</div>
+          <div class="step-icon">🛃</div>
+          <h3 class="step-title">Customs Clearance</h3>
+          <p class="step-desc">Our licensed brokers file and process your customs declaration, coordinate inspections if required, and secure full customs release.</p>
+        </div>
+        <div class="process-step animate delay-4">
+          <div class="step-num">04</div>
+          <div class="step-icon">🚚</div>
+          <h3 class="step-title">Delivery &amp; Reporting</h3>
+          <p class="step-desc">Your cargo is released and delivered to your specified location. We provide complete documentation and a detailed clearance report for your records.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── ABOUT ────────────────────────────────────────────── -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text animate">
+          <span class="section-label">About The Company</span>
+          <h2 class="section-title">Built on Trust, Driven by Expertise</h2>
+          <p class="section-sub">Founded in 2003 in Giza, Egypt, Giza Customs Clearance has grown into one of the country's most respected customs and logistics firms. With a deep understanding of Egyptian trade law, established relationships with port authorities, and a team of certified customs brokers, we deliver results that protect your business and your bottom line.</p>
+          <p class="section-sub" style="margin-top:18px;">We serve importers, exporters, manufacturers, and traders across all industries — from food and pharmaceuticals to machinery, electronics, and consumer goods.</p>
+          <div class="about-tags">
+            <span class="tag gold">Licensed Customs Broker</span>
+            <span class="tag">GOEIC Registered</span>
+            <span class="tag">FIATA Member</span>
+            <span class="tag">ISO Compliant</span>
+            <span class="tag">ECA Accredited</span>
+          </div>
+        </div>
+        <div class="about-visual animate delay-2">
+          <div class="about-card">
+            <div class="about-card-icon">🏆</div>
+            <div class="about-card-num">20+</div>
+            <div class="about-card-title">Years of Excellence</div>
+            <div class="about-card-text">Over two decades of serving Egypt's import and export community.</div>
+          </div>
+          <div class="about-card tall">
+            <div class="about-card-icon">🌍</div>
+            <div class="about-card-num" style="font-size:2rem;">12 Ports</div>
+            <div class="about-card-title">Nationwide Coverage</div>
+            <div class="about-card-text">From Alexandria and Port Said to Damietta, Sokhna, and beyond — we operate at every major Egyptian port.</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">👥</div>
+            <div class="about-card-num">50+</div>
+            <div class="about-card-title">Certified Specialists</div>
+            <div class="about-card-text">A dedicated team of licensed customs brokers and logistics experts.</div>
+          </div>
+          <div class="about-card">
+            <div class="about-card-icon">📈</div>
+            <div class="about-card-num">5K+</div>
+            <div class="about-card-title">Successful Clearances</div>
+            <div class="about-card-text">Thousands of shipments cleared with zero compliance violations.</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── TESTIMONIALS ─────────────────────────────────────── -->
+  <section class="testimonials" id="testimonials">
+    <div class="container">
+      <div class="testimonials-header animate">
+        <span class="section-label">Client Testimonials</span>
+        <h2 class="section-title">Trusted by Egypt's Leading Importers &amp; Exporters</h2>
+        <p class="section-sub">Our clients trust us to handle their most critical shipments. Here's what they say about working with Giza Customs Clearance.</p>
+      </div>
+      <div class="testimonials-grid">
+        <div class="testi-card animate delay-1">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">Giza Customs Clearance transformed our import operations. What used to take weeks now takes days. Their team's knowledge of Egyptian customs regulations is simply unmatched.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">KA</div>
+            <div>
+              <div class="testi-name">Khaled Abdel-Rahman</div>
+              <div class="testi-role">Head of Supply Chain — Cairo Pharma Group</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card animate delay-2">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">We've worked with several clearance agents over the years. None come close to the professionalism, transparency, and speed that Giza Customs consistently delivers for our food imports.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">NM</div>
+            <div>
+              <div class="testi-name">Nadia Mostafa</div>
+              <div class="testi-role">CEO — Meridian Foods Egypt</div>
+            </div>
+          </div>
+        </div>
+        <div class="testi-card animate delay-3">
+          <span class="testi-quote">"</span>
+          <div class="testi-stars">★★★★★</div>
+          <p class="testi-text">The consulting service alone has saved us hundreds of thousands in unnecessary duties. Their regulatory expertise is a genuine competitive advantage for our export business.</p>
+          <div class="testi-author">
+            <div class="testi-avatar">TH</div>
+            <div>
+              <div class="testi-name">Tarek Hassan</div>
+              <div class="testi-role">Logistics Director — Delta Trade Company</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── CONTACT ──────────────────────────────────────────── -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="contact-grid">
+        <div class="contact-info animate">
+          <span class="section-label">Get In Touch</span>
+          <h2 class="section-title">Let's Clear Your Next Shipment</h2>
+          <p class="section-sub">Whether you're a first-time importer or managing a complex supply chain, our team is ready to help. Reach out for a free consultation and quote.</p>
+          <div class="contact-items">
+            <div class="contact-item">
+              <div class="contact-item-icon">📞</div>
+              <div>
+                <div class="contact-item-label">Phone &amp; WhatsApp</div>
+                <div class="contact-item-value">+20 2 3762 4400</div>
+                <div class="contact-item-value">+20 100 234 5678</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">✉️</div>
+              <div>
+                <div class="contact-item-label">Email</div>
+                <div class="contact-item-value">info@gizacustoms.com.eg</div>
+                <div class="contact-item-value">clearance@gizacustoms.com.eg</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div>
+                <div class="contact-item-label">Head Office</div>
+                <div class="contact-item-value">42 Pyramids Road, Giza,<br />Cairo 12511, Egypt</div>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">🕐</div>
+              <div>
+                <div class="contact-item-label">Business Hours</div>
+                <div class="contact-item-value">Sun – Thu: 8:00 AM – 5:00 PM</div>
+                <div class="contact-item-value" style="font-size:0.88rem;color:var(--gray-text);">Emergency support available 24/7</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="contact-form-wrapper animate delay-2">
+          <h3 class="form-title">Request a Free Quote</h3>
+          <p class="form-sub">Fill in your details and our team will respond within 2 business hours.</p>
+          <div class="form-row">
+            <div class="form-group">
+              <label>First Name</label>
+              <input type="text" placeholder="Ahmed" />
+            </div>
+            <div class="form-group">
+              <label>Last Name</label>
+              <input type="text" placeholder="Hassan" />
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Company Name</label>
+              <input type="text" placeholder="Your Company LLC" />
+            </div>
+            <div class="form-group">
+              <label>Phone Number</label>
+              <input type="tel" placeholder="+20 100 000 0000" />
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Email Address</label>
+            <input type="email" placeholder="you@company.com" />
+          </div>
+          <div class="form-row">
+            <div class="form-group">
+              <label>Service Required</label>
+              <select>
+                <option value="">Select a service...</option>
+                <option>Customs Clearance (Import)</option>
+                <option>Customs Clearance (Export)</option>
+                <option>Documentation &amp; Permits</option>
+                <option>Logistics Support</option>
+                <option>Shipping Coordination</option>
+                <option>Regulatory Consulting</option>
+                <option>Warehousing &amp; Storage</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Port of Entry / Exit</label>
+              <select>
+                <option value="">Select port...</option>
+                <option>Alexandria Port</option>
+                <option>Port Said</option>
+                <option>Damietta Port</option>
+                <option>Ain Sokhna Port</option>
+                <option>Cairo Airport (CAI)</option>
+                <option>Other / Multiple</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <label>Shipment Details / Message</label>
+            <textarea placeholder="Briefly describe your shipment type, commodity, approximate value, and any special requirements..."></textarea>
+          </div>
+          <button class="btn btn-dark form-submit" onclick="handleSubmit(event)">Send Enquiry ➜</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─── FOOTER ───────────────────────────────────────────── -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <div class="footer-logo-icon">🚢</div>
+            <div>
+              <div class="footer-logo-text">Giza Customs Clearance</div>
+              <div style="font-size:0.7rem;color:var(--gold);letter-spacing:0.1em;text-transform:uppercase;margin-top:2px;">Logistics &amp; Customs Experts</div>
+            </div>
+          </div>
+          <p>Egypt's trusted partner for customs clearance, logistics, and regulatory compliance since 2003. Licensed, experienced, and committed to your supply chain success.</p>
+          <div class="footer-social">
+            <a class="social-btn" href="#" title="LinkedIn">in</a>
+            <a class="social-btn" href="#" title="Facebook">f</a>
+            <a class="social-btn" href="#" title="WhatsApp">W</a>
+            <a class="social-btn" href="#" title="X / Twitter">𝕏</a>
+          </div>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Services</div>
+          <ul>
+            <li><a href="#services">Customs Clearance</a></li>
+            <li><a href="#services">Documentation</a></li>
+            <li><a href="#services">Logistics Support</a></li>
+            <li><a href="#services">Shipping Coordination</a></li>
+            <li><a href="#services">Regulatory Consulting</a></li>
+            <li><a href="#services">Warehousing</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <div class="footer-col-title">Company</div>
+          <ul>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#why-us">Why Choose Us</a></li>
+            <li><a href="#process">Our Process</a></li>
+            <li><a href="#testimonials">Client Stories</a></li>
+            <li><a href="#contact">Careers</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-newsletter">
+          <div class="footer-col-title">Trade Alerts</div>
+          <p>Subscribe for updates on Egyptian customs regulations, tariff changes, and port news.</p>
+          <div class="footer-email-form">
+            <input type="email" placeholder="your@email.com" />
+            <button>Subscribe</button>
+          </div>
+          <p style="margin-top:16px;font-size:0.78rem;color:rgba(255,255,255,0.3);">No spam. Unsubscribe anytime.</p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <span>© 2024 Giza Customs Clearance. All rights reserved.</span>
+        <div class="footer-bottom-links">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms of Service</a>
+          <a href="#">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ─── SCROLL TOP ───────────────────────────────────────── -->
+  <button class="scroll-top" id="scrollTop" onclick="window.scrollTo({top:0,behavior:'smooth'})">↑</button>
+
+  <!-- ─── JAVASCRIPT ───────────────────────────────────────── -->
+  <script>
+    // Navbar scroll effect
+    const navbar = document.getElementById('navbar');
+    const scrollTopBtn = document.getElementById('scrollTop');
+    window.addEventListener('scroll', () => {
+      if (window.scrollY > 60) {
+        navbar.classList.add('scrolled');
+        scrollTopBtn.classList.add('visible');
+      } else {
+        navbar.classList.remove('scrolled');
+        scrollTopBtn.classList.remove('visible');
+      }
+    });
+
+    // Mobile menu
+    function openMenu() { document.getElementById('mobileMenu').classList.add('open'); document.body.style.overflow='hidden'; }
+    function closeMenu() { document.getElementById('mobileMenu').classList.remove('open'); document.body.style.overflow=''; }
+
+    // Intersection Observer for scroll animations
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+    document.querySelectorAll('.animate').forEach(el => observer.observe(el));
+
+    // Form submit handler
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target;
+      btn.textContent = '✓ Enquiry Sent!';
+      btn.style.background = '#16a34a';
+      btn.style.color = '#fff';
+      setTimeout(() => {
+        btn.textContent = 'Send Enquiry ➜';
+        btn.style.background = '';
+        btn.style.color = '';
+      }, 3500);
+    }
+
+    // Smooth scroll for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          const offset = 80;
+          const top = target.getBoundingClientRect().top + window.scrollY - offset;
+          window.scrollTo({ top, behavior: 'smooth' });
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
